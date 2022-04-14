@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root {
+    --background: #C2F2E8;
+    --bs-primary: #6C74A6;
+    --bs-primary-rgb: 108, 116, 166;
+    --bs-primary-light: #AAB4F2;
+    --bs-light: var(--background);
+    --bs-light-rgb: 194, 242, 232;
+    --bs-dark: #8DA6A0;
+    --bs-dark-rgb: 141, 166, 160;
+}
+
+.btn-primary {
+    color: var(--bs-primary-light);
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+.btn-primary:hover {
+    color: var(--bs-light);
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, .2);
+    transform: translate(-1px, -1px);
+    transition: all .2s;
+}
+
+body {
+    background-color: var(--background);
+    font-family: 'Raleway', sans-serif;
+}
+#jumbo {
+    background-image: url("https://picsum.photos/seed/13/1920");
+    background-size: cover;
+    background-position: center;
+}
+#jumbo h1 {
+    text-shadow: 0 0 8px rgba(0, 0, 0, .7);
+}
+#jumbo .lead {
+    text-shadow: 0 0 3px rgba(0, 0, 0, .9);
+}
+
+.top-auto {
+    top: auto;
+}
+
+a.card-title:hover {
+    text-decoration: underline !important;
+}
