@@ -12,9 +12,10 @@
 }
 
 .btn-primary {
-    color: var(--bs-primary-light);
+    color: var(--bs-gray-400);
     background-color: var(--bs-primary);
     border-color: var(--bs-primary);
+    transition: all .2s;
 }
 .btn-primary:hover {
     color: var(--bs-light);
@@ -22,7 +23,6 @@
     border-color: var(--bs-primary);
     box-shadow: 2px 2px 8px rgba(0, 0, 0, .2);
     transform: translate(-1px, -1px);
-    transition: all .2s;
 }
 
 body {
@@ -47,4 +47,13 @@ body {
 
 a.card-title:hover {
     text-decoration: underline !important;
+}
+
+#programmation .card {
+    transition: all .2s;
+}
+
+#programmation .card:hover {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, .2);
+    transform: translate(-1px, -1px);
 }
